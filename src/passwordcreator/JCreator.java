@@ -85,7 +85,6 @@ public class JCreator extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         int length = 10; // Length of the password
-        System.out.println(generatePassword(length));
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
